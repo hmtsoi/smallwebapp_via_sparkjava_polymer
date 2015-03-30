@@ -1,0 +1,4 @@
+<p>Mit folgender Technik wird diese responsive Seite in einer REST-Architektur zusammengebaut:</p><ol>
+<li><a href="http://docs.oracle.com/javase/tutorial/" target="_blank">Java</a> -- mit dessen Bibliotheken können skalierbare Seiten schnell eingerichtet.</li>
+<li><a href="https://www.polymer-project.org/" target="_blank">Polymer</a> -- ein neues Rahmenwerk von HTML-Javascript, das ein guter Behälter für HTML-Elemente ist.</li>
+<li><a href="http://logback.qos.ch/" target="_blank">Logback</a> -- dadurch können Informationen über die Anfragen zu dieser Seite gebucht werden.</li></ol>

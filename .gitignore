@@ -1,0 +1,13 @@
+.classpath
+.project
+bin/
+build/
+class/
+gradle/
+.gradle/
+gradlew
+gradlew.bat
+.settings/
+
+public/bower_components/
+

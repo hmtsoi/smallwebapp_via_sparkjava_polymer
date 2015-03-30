@@ -1,0 +1,26 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'maven'
+apply plugin: 'application'
+
+mainClassName = "small.webhost.Main"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.sparkjava:spark-core:2.1'
+    compile 'ch.qos.logback:logback-classic:1.1.2'
+    compile 'org.slf4j:slf4j-api:1.6.1'
+    compile 'com.google.code.gson:gson:2.3.1'
+} 
+
+task wrapper( type: Wrapper ) {
+    gradleVersion = '2.2.1'
+    jarFile = 'lib/gradle/gradle.jar'
+    archiveBase = Wrapper.PathBase.PROJECT
+    archivePath = 'lib/gradle/dists'
+    distributionBase = Wrapper.PathBase.PROJECT
+    distributionPath = '.gradle/wrapper/dists'
+}
